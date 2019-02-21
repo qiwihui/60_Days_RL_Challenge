@@ -3,50 +3,50 @@
 
 ![](https://img.shields.io/badge/Uploaded-100%25-green.svg)  
 
+### 我为你和我设计了这个挑战：在60天内深入学习深度强化学习!!
 
-### I designed this Challenge for you and me: Learn Deep Reinforcement Learning in Depth in 60 days!!
+您肯定听说过 [Deepmind 使用 AlphaGo Zero](https://www.youtube.com/watch?time_continue=24&v=tXlM99xPQC8) 和 [OpenAI 在 Dota 2 中](https://www.youtube.com/watch?v=l92J1UvHf6M)取得的惊人成果！你不想知道它们是如何工作的吗？现在正是你我最终学会“深度强化学习”，并将其应用到已有项目的合适时机。
 
-You heard about the amazing results achieved by [Deepmind with AlphaGo Zero](https://www.youtube.com/watch?time_continue=24&v=tXlM99xPQC8) and by [OpenAI in Dota 2](https://www.youtube.com/watch?v=l92J1UvHf6M)! Don't you want to know how they work?
-This is the right opportunity for you and me to finally learn Deep RL and use it on new exciting projects.
-
-> The ultimate aim is to use these general-purpose technologies and apply them to all sorts of important real world problems.
+> 最终目标是使用这些通用技术并将其应用于各种重要的现实世界问题。
 > **Demis Hassabis**
 
-This repository wants to guide you through the Deep Reinforcement Learning algorithms, from the most basic ones to the highly advanced AlphaGo Zero. You will find the **main topics organized by week** and the **resources suggested to learn them**. Also, every week I will provide **practical examples** implemented in python to help you better digest the theory. You are highly encouraged to modify and play with them!
+这个项目希望引导你完成深度强化学习算法，从最基本的到高度先进的 AlphaGo Zero。你可以发现**按周组织的主题**和**建议学习资源**。同时，每周我都会提供用 Python 实现的**应用实例**，以帮助你更好地消化理论。我们强烈建议你修改并使用它们！
 
 <br>
 
-**Stay tuned** [![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow)](https://twitter.com/andri27_it) [![GitHub followers](https://img.shields.io/github/followers/espadrine.svg?style=social&label=Follow)](https://github.com/andri27-ts)
-#### #60DaysRLChallenge
+**敬请关注** [![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow)](https://twitter.com/andri27_it) [![GitHub followers](https://img.shields.io/github/followers/espadrine.svg?style=social&label=Follow)](https://github.com/andri27-ts)
 
-Now we have also a [**Slack channel**](https://60daysrlchallenge.slack.com/). To get an invitation, email me at andrea.lonza@gmail.com
+#### #60天强化学习
 
-This is my first project of this kind, so please, if you have any idea, suggestion or improvement contact me at andrea.lonza@gmail.com.
+现在我们还有[** Slack 频道**](https://60daysrlchallenge.slack.com/)。要获得邀请，请给我发电子邮件 andrea.lonza@gmail.com。
 
+这是我的第一个此类项目，所以，如果您有任何想法，建议或改进，请联系我 andrea.lonza@gmail.com。
 
-To learn Deep Learning, Computer Vision or Natural Language Processing [check my 1-Year-ML-Journey](https://github.com/andri27-ts/1-Year-ML-Journey)
+学习深度学习，计算机视觉或自然语言处理请访问我的[一年机器学习之旅](https://github.com/andri27-ts/1-Year-ML-Journey)
 
-### Prerequisites
-* Basic level of Python and PyTorch
-* [Machine Learning](https://github.com/andri27-ts/1-Year-ML-Journey)
-* [Basic knowledge in Deep Learning (MLP, CNN and RNN)](https://github.com/andri27-ts/1-Year-ML-Journey)
+### 必备知识
 
-## Index
- - **[Week 1 - Introduction](https://github.com/andri27-ts/60_Days_RL_Challenge#week-1---introduction)**
- - **[Week 2 - RL Basics](https://github.com/andri27-ts/60_Days_RL_Challenge#week-2---rl-basics-mdp-dynamic-programming-and-model-free-control)**
- - **[Week 3 - Value Function Approximation and DQN](https://github.com/andri27-ts/60_Days_RL_Challenge#week-3---value-function-approximation-and-dqn)**
- - **[Week 4 - Policy gradient methods and A2C](https://github.com/andri27-ts/60_Days_RL_Challenge#week-4---policy-gradient-methods-and-a2c)**
- - **[Week 5 - Advanced Policy Gradients - TRPO & PPO](https://github.com/andri27-ts/60_Days_RL_Challenge#week-5---advanced-policy-gradients---trpo--ppo)**
- - **[Week 6 - Evolution Strategies and Genetic Algorithms](https://github.com/andri27-ts/60_Days_RL_Challenge#week-6---evolution-strategies-and-genetic-algorithms)**
- - **[Week 7 - Model-Based reinforcement learning](https://github.com/andri27-ts/60_Days_RL_Challenge#week-7---model-based-reinforcement-learning)**
- - **[Week 8 - Advanced Concepts and Project Of Your Choice](https://github.com/andri27-ts/60_Days_RL_Challenge/blob/master/README.md#week-8---advanced-concepts-and-project-of-your-choice)**
- - **[Last 4 days - Review + Sharing](https://github.com/andri27-ts/60_Days_RL_Challenge/blob/master/README.md#last-4-days---review--sharing)**
- - **[Best resources](https://github.com/andri27-ts/60_Days_RL_Challenge#best-resources)**
- - **[Additional resources](https://github.com/andri27-ts/60_Days_RL_Challenge#additional-resources)**
+* 了解 Python 和 PyTorch
+* [机器学习](https://github.com/andri27-ts/1-Year-ML-Journey)
+* [了解深度学习的基础知识（MLP，CNN 和 RNN）](https://github.com/andri27-ts/1-Year-ML-Journey)
+
+## 目录
+
+ - **[第一周 - 强化学习介绍](https://github.com/andri27-ts/60_Days_RL_Challenge#week-1---introduction)**
+ - **[第二周 - 强化学习基础](https://github.com/andri27-ts/60_Days_RL_Challenge#week-2---rl-basics-mdp-dynamic-programming-and-model-free-control)**
+ - **[第三周 - 值函数近似和 DQN](https://github.com/andri27-ts/60_Days_RL_Challenge#week-3---value-function-approximation-and-dqn)**
+ - **[第四周 - 策略梯度方法和 A2C](https://github.com/andri27-ts/60_Days_RL_Challenge#week-4---policy-gradient-methods-and-a2c)**
+ - **[第五周 - 高级策略梯度 - TRPO 和 PPO](https://github.com/andri27-ts/60_Days_RL_Challenge#week-5---advanced-policy-gradients---trpo--ppo)**
+ - **[第六周 - 进化策略和遗传算法](https://github.com/andri27-ts/60_Days_RL_Challenge#week-6---evolution-strategies-and-genetic-algorithms)**
+ - **[第七周 - 基于模型的强化学习](https://github.com/andri27-ts/60_Days_RL_Challenge#week-7---model-based-reinforcement-learning)**
+ - **[第八周 - 高级概念和你选择的项目](https://github.com/andri27-ts/60_Days_RL_Challenge/blob/master/README.md#week-8---advanced-concepts-and-project-of-your-choice)**
+ - **[最后四天 - 评论 + 分享](https://github.com/andri27-ts/60_Days_RL_Challenge/blob/master/README.md#last-4-days---review--sharing)**
+ - **[最好的资源](https://github.com/andri27-ts/60_Days_RL_Challenge#best-resources)**
+ - **[额外的资源](https://github.com/andri27-ts/60_Days_RL_Challenge#additional-resources)**
 
 <br>
 
-## Week 1 - Introduction
+## 第一周 - 强化学习介绍
 
 - **[An introduction to Reinforcement Learning](https://www.youtube.com/watch?v=JgvyzIkgxF0) by Arxiv Insights**
 - **[Introduction and course overview](https://www.youtube.com/watch?v=Q4kF8sfggoI&index=1&list=PLkFD6_40KJIznC9CDbVTjAF2oyt8_VAe3) - CS294 by Levine**
