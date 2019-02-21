@@ -18,11 +18,11 @@
 
 #### #60天强化学习
 
-现在我们还有[** Slack 频道**](https://60daysrlchallenge.slack.com/)。要获得邀请，请给我发电子邮件 andrea.lonza@gmail.com。
+现在我们还有 [** Slack 频道**](https://60daysrlchallenge.slack.com/)。要获得邀请，请给我发电子邮件 andrea.lonza@gmail.com。
 
 这是我的第一个此类项目，所以，如果您有任何想法，建议或改进，请联系我 andrea.lonza@gmail.com。
 
-学习深度学习，计算机视觉或自然语言处理请访问我的[一年机器学习之旅](https://github.com/andri27-ts/1-Year-ML-Journey)
+学习深度学习，计算机视觉或自然语言处理请访问我的[一年机器学习之旅](https://github.com/andri27-ts/1-Year-ML-Journey)。
 
 ### 必备知识
 
@@ -32,108 +32,111 @@
 
 ## 目录
 
- - **[第一周 - 强化学习介绍](https://github.com/andri27-ts/60_Days_RL_Challenge#week-1---introduction)**
- - **[第二周 - 强化学习基础](https://github.com/andri27-ts/60_Days_RL_Challenge#week-2---rl-basics-mdp-dynamic-programming-and-model-free-control)**
- - **[第三周 - 值函数近似和 DQN](https://github.com/andri27-ts/60_Days_RL_Challenge#week-3---value-function-approximation-and-dqn)**
- - **[第四周 - 策略梯度方法和 A2C](https://github.com/andri27-ts/60_Days_RL_Challenge#week-4---policy-gradient-methods-and-a2c)**
- - **[第五周 - 高级策略梯度 - TRPO 和 PPO](https://github.com/andri27-ts/60_Days_RL_Challenge#week-5---advanced-policy-gradients---trpo--ppo)**
- - **[第六周 - 进化策略和遗传算法](https://github.com/andri27-ts/60_Days_RL_Challenge#week-6---evolution-strategies-and-genetic-algorithms)**
- - **[第七周 - 基于模型的强化学习](https://github.com/andri27-ts/60_Days_RL_Challenge#week-7---model-based-reinforcement-learning)**
- - **[第八周 - 高级概念和你选择的项目](https://github.com/andri27-ts/60_Days_RL_Challenge/blob/master/README.md#week-8---advanced-concepts-and-project-of-your-choice)**
- - **[最后四天 - 评论 + 分享](https://github.com/andri27-ts/60_Days_RL_Challenge/blob/master/README.md#last-4-days---review--sharing)**
- - **[最好的资源](https://github.com/andri27-ts/60_Days_RL_Challenge#best-resources)**
- - **[额外的资源](https://github.com/andri27-ts/60_Days_RL_Challenge#additional-resources)**
+ - **[第一周 - 强化学习介绍](#第一周---强化学习介绍)**
+ - **[第二周 - 强化学习基础](#第二周---强化学习基础-马尔科夫决策过程-动态规划和不基于模型的控制)**
+ - **[第三周 - 值函数近似和 DQN](#第三周---值函数近似和-DQN)**
+ - **[第四周 - 策略梯度方法和 A2C](#第四周---策略梯度方法和-A2C)**
+ - **[第五周 - 高级策略梯度 - TRPO 和 PPO](#第五周---高级策略梯度---TRPO-和-PPO)**
+ - **[第六周 - 进化策略和遗传算法](#第六周---进化策略和遗传算法)**
+ - **[第七周 - 基于模型的强化学习](#第七周---基于模型的强化学习)**
+ - **[第八周 - 高级概念和你选择的项目](第八周---高级概念和你选择的项目)**
+ - **[最后四天 - 评论 + 分享](#最后四天---评论--分享)**
+ - **[最好的资源](#最好的资源)**
+ - **[额外的资源](#额外的资源)**
 
 <br>
 
 ## 第一周 - 强化学习介绍
 
-- **[An introduction to Reinforcement Learning](https://www.youtube.com/watch?v=JgvyzIkgxF0) by Arxiv Insights**
-- **[Introduction and course overview](https://www.youtube.com/watch?v=Q4kF8sfggoI&index=1&list=PLkFD6_40KJIznC9CDbVTjAF2oyt8_VAe3) - CS294 by Levine**
-- **[Deep Reinforcement Learning: Pong from Pixels](http://karpathy.github.io/2016/05/31/rl/) by Karpathy**
+- **[强化学习简介](https://www.youtube.com/watch?v=JgvyzIkgxF0)，Arxiv Insights**
+- **[介绍和课程概述](https://www.youtube.com/watch?v=Q4kF8sfggoI&index=1&list=PLkFD6_40KJIznC9CDbVTjAF2oyt8_VAe3) - CS294，Levine**
+- **[深度强化学习：像素乒乓](http://karpathy.github.io/2016/05/31/rl/)，Karpathy**
 
 ---
 
-#### Suggested
+#### 建议
 
-- Great introductory paper: [Deep Reinforcement Learning: An Overview](https://www.groundai.com/project/deep-reinforcement-learning-an-overview/)
-- Start coding: [From Scratch: AI Balancing Act in 50 Lines of Python](https://towardsdatascience.com/from-scratch-ai-balancing-act-in-50-lines-of-python-7ea67ef717)
+- 很棒的入门论文：[深度强化学习：概述](https://www.groundai.com/project/deep-reinforcement-learning-an-overview/)
+- 开始编码：[从头开始：50行 Python 实现人工智能平衡技术](https://towardsdatascience.com/from-scratch-ai-balancing-act-in-50-lines-of-python-7ea67ef717)
 
 <br>
 
-## Week 2 - RL Basics: *MDP, Dynamic Programming and Model-Free Control*
+## 第二周 - 强化学习基础：*马尔科夫决策过程，动态规划和不基于模型的控制*
 
-> Those who cannot remember the past are condemned to repeat it - **George Santayana**
+> 忘记过去的人，终将重蹈覆辙。 - **George Santayana**
 
-
-This week, we will learn about the basic blocks of reinforcement learning, starting from the definition of the problem all the way through the estimation and optimization of the functions that are used to express the quality of a policy or state.
+本周，我们将了解强化学习的基本内容，从问题的定义一直到用于表达策略或状态质量的函数的估计和优化。
 
 ----
 
-### Theoretical material
+### 理论材料
 
-* **[Markov Decision Process](https://www.youtube.com/watch?v=lfHX2hHRMVQ&list=PLzuuYNsE1EZAXYR4FJ75jcJseBmo4KQ9-&index=2)** RL by David Silver
-  * Markov Processes
-  * Markov Decision Processes
+* **[马尔科夫决策过程（Markov Decision Process）](https://www.youtube.com/watch?v=lfHX2hHRMVQ&list=PLzuuYNsE1EZAXYR4FJ75jcJseBmo4KQ9-&index=2)**  David Silver 强化学习
+  * 马尔科夫过程（Markov Processes）
+  * 马尔科夫决策过程（Markov Decision Processes）
 
-- **[Planning by Dynamic Programming](https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PLzuuYNsE1EZAXYR4FJ75jcJseBmo4KQ9-&index=3)**  RL by David Silver
-  * Policy iteration
-  * Value iteration
+- **[动态规划设计（Planning by Dynamic Programming）](https://www.youtube.com/watch?v=Nd1-UUMVfz4&list=PLzuuYNsE1EZAXYR4FJ75jcJseBmo4KQ9-&index=3)**  David Silver 强化学习
+  * 策略迭代（Policy iteration）
+  * 价值迭代（Value iteration）
 
-* **[Model-Free Prediction](https://www.youtube.com/watch?v=PnHCvfgC_ZA&index=4&list=PLzuuYNsE1EZAXYR4FJ75jcJseBmo4KQ9-)**  RL by David Silver
-  * Monte Carlo Learning
-  * Temporal Difference Learning
+* **[不基于模型的预测（Model-Free Prediction）](https://www.youtube.com/watch?v=PnHCvfgC_ZA&index=4&list=PLzuuYNsE1EZAXYR4FJ75jcJseBmo4KQ9-)**  David Silver 强化学习
+  * 蒙特卡罗学习（Monte-Carlo Learning）
+  * 时序差分学习（Temporal Difference Learning）
   * TD(λ)
 
-- **[Model-Free Control](https://www.youtube.com/watch?v=0g4j2k_Ggc4&list=PLzuuYNsE1EZAXYR4FJ75jcJseBmo4KQ9-&index=5)**  RL by David Silver
-  * Ɛ-greedy policy iteration
-  * GLIE Monte Carlo Search
+- **[不基于模型的控制（Model-Free Control）](https://www.youtube.com/watch?v=0g4j2k_Ggc4&list=PLzuuYNsE1EZAXYR4FJ75jcJseBmo4KQ9-&index=5)**  David Silver 强化学习
+  * Ɛ-贪婪策略迭代（Ɛ-greedy policy iteration）
+  * GLIE 蒙特卡洛搜索（GLIE Monte Carlo Search）
   * SARSA
-  * Importance Sampling
+  * 重要性采样（Importance Sampling）
 
 ----
 
-### Project of the Week
+### 本周项目
 
 [Q-learning applied to FrozenLake](Week2/frozenlake_Qlearning.ipynb). For exercise, you can solve the game using SARSA or implement Q-learning by yourself. In the former case, only few changes are needed.
+[Q-learning 解决冰冻湖问题](Week2/frozenlake_Qlearning.ipynb)。作为练习，您可以使用 SARSA 解决游戏问题或自行实施 Q-learning。在前一种情况下，只需要进行少量更改即可。
 
 ----
 
-#### To know more
-- :books: Read chapters 3,4,5,6,7 of [Reinforcement Learning An Introduction - Sutton, Barto](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)
-- :tv: [Value functions introduction](https://www.youtube.com/watch?v=k1vNh4rNYec&index=6&list=PLkFD6_40KJIznC9CDbVTjAF2oyt8_VAe3) - DRL UC Berkley by Sergey Levine
+#### 了解更多
+
+- :books: 阅读 [强化学习导论 - Sutton, Barto](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf) 的第3、4、5、6、7章节。
+- :tv: [价值函数介绍](https://www.youtube.com/watch?v=k1vNh4rNYec&index=6&list=PLkFD6_40KJIznC9CDbVTjAF2oyt8_VAe3) - DRL UC Berkley，Sergey Levine
 
 <br>
 
-## Week 3 - Value Function Approximation and DQN
+## 第三周 - 值函数近似和 DQN
 
-This week we'll learn more advanced concepts and apply deep neural network to Q-learning algorithms.
+本周我们将学习更多高级概念，并将深度神经网络应用于 Q-learning 算法。
 
 ----
 
-### Theoretical material
+### 理论材料
 
 #### Lectures
-- **[Value functions approximation](https://www.youtube.com/watch?v=UoPei5o4fps&list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ&index=6) - RL by David Silver**
-  - Differentiable function approximators
-  - Incremental methods
-  - Batch methods (DQN)
 
-* **[Advanced Q-learning algorithms](https://www.youtube.com/watch?v=nZXC5OdDfs4&list=PLkFD6_40KJIznC9CDbVTjAF2oyt8_VAe3&index=7) - DRL UC Berkley by Sergey Levine**
+- **[价值函数近似（Value functions approximation）](https://www.youtube.com/watch?v=UoPei5o4fps&list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ&index=6) - RL by David Silver**
+  - 差分近似函数（Differentiable function approximators）
+  - 递增方法（Incremental Methods）
+  - 批方法（Batch methods）（用于 DQN 网络）
+
+* **[高级 Q-learning 算法](https://www.youtube.com/watch?v=nZXC5OdDfs4&list=PLkFD6_40KJIznC9CDbVTjAF2oyt8_VAe3&index=7) - DRL UC Berkley by Sergey Levine**
   - Replay Buffer
   - Double Q-learning
   - Continous actions (NAF,DDPG)
-  - Pratical tips
+  - 实用技巧
 
+#### 论文
 
-#### Papers
+##### 必读
 
-##### Must Read
- - [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/pdf/1312.5602.pdf) - 2013
+ - [利用深度强化学习机器可以成为 Atari 游戏达人](https://arxiv.org/pdf/1312.5602.pdf) - 2013
  - [Human-level control through deep reinforcement learning](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf) - 2015
  - [Rainbow: Combining Improvements in Deep Reinforcement Learning](https://arxiv.org/pdf/1710.02298.pdf) - 2017
 
-##### Extensions of DQN
+##### DQN 变型
+
  - [Deep Reinforcement Learning with Double Q-learning](https://arxiv.org/pdf/1509.06461.pdf) - 2015
  - [Prioritized Experience Replay](https://arxiv.org/pdf/1511.05952.pdf) - 2015
  - [Dueling Network Architectures for Deep Reinforcement Learning](http://proceedings.mlr.press/v48/wangf16.pdf) - 2016
@@ -142,20 +145,20 @@ This week we'll learn more advanced concepts and apply deep neural network to Q-
 
 ----
 
-### Project of the Week
+### 本周项目
 
-[**DQN and some variants applied to Pong**](Week3)
+[**DQN 和一些应用于 Pong 的变体**](Week3)
 
-This week the goal is to develop a DQN algorithm to play an Atari game. To make it more interesting I developed three extensions of DQN: **Double Q-learning**, **Multi-step learning**, **Dueling networks** and **Noisy Nets**. Play with them, and if you feel confident, you can implement Prioritized replay, Dueling networks or Distributional RL. To know more about these improvements read the papers!
+本周的目标是开发一个 DQN 算法玩 Atari 游戏。为了使项目更有趣，我开发了3个 DQN 变型：**Double Q-learning**，**Multi-step learning**，**Dueling networks** 和 **Noisy Nets**。你可以使用它们玩游戏，如果你有信心，你可以实现 Prioritized replay， Dueling networks 或者 Distributional RL。阅读论文以了解更多改进。
 
 -----
 
-#### Suggested
-  - :tv: [Deep Reinforcement Learning in the Enterprise: Bridging the Gap from Games to Industry](https://www.youtube.com/watch?v=GOsUHlr4DKE)
+#### 建议
+  - :tv: [企业深度强化学习：缩小从游戏到行业的差距](https://www.youtube.com/watch?v=GOsUHlr4DKE)
 
 <br>
 
-## Week 4 - Policy gradient methods and A2C
+## 第四周 - 策略梯度方法和 A2C
 
 Week 4 introduce Policy Gradient methods, a class of algorithms that optimize directly the policy. Also, you'll learn about Actor-Critic algorithms. These algorithms combine both policy gradient (the actor) and value function (the critic).
 
@@ -200,7 +203,7 @@ The exercise of this week is to implement a policy gradient method or a more sop
 
 <br>
 
-## Week 5 - Advanced Policy Gradients - TRPO & PPO
+## 第五周 - 高级策略梯度 - TRPO 和 PPO
 
 This week is about advanced policy gradient methods that improve the stability and the convergence of the "Vanilla" policy gradient methods. You'll learn and implement PPO, a RL algorithm developed by OpenAI and adopted in [OpenAI Five](https://blog.openai.com/openai-five/).
 
@@ -248,7 +251,7 @@ NB: the hyperparameters of the PPO implementation I released, can be tuned to im
 
 <br>
 
-## Week 6 - Evolution Strategies and Genetic Algorithms
+## 第六周 - 进化策略和遗传算法
 
 In the last year, Evolution strategies (ES) and Genetic Algorithms (GA) has been shown to achieve comparable results to RL methods. They are derivate-free black-box algorithms that require more data than RL to learn but are able to scale up across thousands of CPUs. This week we'll look at this black-box algorithms.
 
@@ -279,7 +282,7 @@ Scalable Alternative to Reinforcement Learning](https://arxiv.org/pdf/1703.03864
 
 <br>
 
-## Week 7 - Model-Based reinforcement learning
+## 第七周 - 基于模型的强化学习
 
 The algorithms studied up to now are model-free, meaning that they only choose the better action given a state. These algorithms achieve very good performance but require a lot of training data. Instead, model-based algorithms, learn the environment and plan the next actions accordingly to the model learned. These methods are more sample efficient than model-free but overall achieve worst performance. In this week you'll learn the theory behind these methods and implement one of the last algorithms.
 
@@ -328,7 +331,7 @@ NB: Instead of implementing it on Mujoco as in the paper, I used [RoboSchool](ht
 
 <br>
 
-## Week 8 - Advanced Concepts and Project Of Your Choice
+## 第八周 - 高级概念和你选择的项目
 
 This last week is about advanced RL concepts and a project of your choice.
 
@@ -372,13 +375,13 @@ Here you can find some project ideas.
 
 <br>
 
-## Last 4 days - Review + Sharing
+## 最后四天 - 评论 + 分享
 
 Congratulation for completing the 60 Days RL Challenge!! Let me know if you enjoyed it and share it!
 
 See you!
 
-## Best resources
+## 最好的资源
 
 :tv: [Deep Reinforcement Learning](https://www.youtube.com/playlist?list=PLkFD6_40KJIznC9CDbVTjAF2oyt8_VAe3) - UC Berkeley class by Levine, check [here](http://rail.eecs.berkeley.edu/deeprlcourse/) their site.
 
@@ -386,8 +389,7 @@ See you!
 
 :notebook: [Reinforcement Learning: An Introduction](https://www.amazon.com/Reinforcement-Learning-Introduction-Adaptive-Computation/dp/0262193981/ref=sr_1_2?s=books&ie=UTF8&qid=1535898372&sr=1-2&keywords=reinforcement+learning+sutton) - by Sutton & Barto. The "Bible" of reinforcement learning. [Here](https://drive.google.com/file/d/1opPSz5AZ_kVa1uWOdOiveNiBFiEOHjkG/view) you can find the PDF draft of the second version.
 
-
-## Additional resources
+## 额外的资源
 
 :books: [Awesome Reinforcement Learning](https://github.com/aikorea/awesome-rl). A curated list of resources dedicated to reinforcement learning
 
